@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+$font-stack: 'Monserrat', sans-serif;
+
+html, 
+body { 
+    font-family: $font-stack;
+    line-height: 1.5;
+}
+.carousel-inner img {
+    width: 100%;
+    max-height: 500px;
+}
+
+
+.carousel-inner{
+ height: 500px;
+}
